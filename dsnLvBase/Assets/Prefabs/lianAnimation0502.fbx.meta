@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 316925c4a4a7c464ebe2e071b1e956c9
+timeCreated: 1430662173
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: body
+    100002: cloth
+    100004: eye
+    100006: eyeframe
+    100008: eyeLid
+    100010: leftHandle
+    100012: leftJointKnee
+    100014: leftJointTigh
+    100016: leftLeg
+    100018: legs
+    100020: //RootNode
+    100022: pupil
+    100024: rightHandle
+    100026: rightJointTigh
+    100028: rightJointToe
+    100030: rightJointToe 1
+    100032: rightLeg
+    100034: rigntJointKnee
+    400000: body
+    400002: cloth
+    400004: eye
+    400006: eyeframe
+    400008: eyeLid
+    400010: leftHandle
+    400012: leftJointKnee
+    400014: leftJointTigh
+    400016: leftLeg
+    400018: legs
+    400020: //RootNode
+    400022: pupil
+    400024: rightHandle
+    400026: rightJointTigh
+    400028: rightJointToe
+    400030: rightJointToe 1
+    400032: rightLeg
+    400034: rigntJointKnee
+    2300000: eyeframe
+    2300002: pupil
+    3300000: eyeframe
+    3300002: pupil
+    4300000: pupil
+    4300002: eyeframe
+    4300004: eyeLid
+    4300006: cloth
+    4300008: rightLeg
+    4300010: leftLeg
+    7400000: walk
+    7400002: idle
+    7400004: idleFat
+    7400006: air
+    7400008: rotating
+    7400010: blink
+    7400012: jump
+    9500000: //RootNode
+    13700000: cloth
+    13700002: eyeLid
+    13700004: leftLeg
+    13700006: rightLeg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idleFat
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: air
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: rotating
+      takeName: Take 001
+      firstFrame: 91
+      lastFrame: 98
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: blink
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 111
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/cloth
+        weight: 1
+      - path: body/eye
+        weight: 1
+      - path: body/eye/eyeframe
+        weight: 1
+      - path: body/eye/eyeLid
+        weight: 1
+      - path: body/eye/pupil
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leftHandle
+        weight: 1
+      - path: legs/leftJointTigh
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee
+        weight: 1
+      - path: legs/leftJointTigh/leftJointKnee/rightJointToe
+        weight: 1
+      - path: legs/leftLeg
+        weight: 1
+      - path: legs/rightHandle
+        weight: 1
+      - path: legs/rightJointTigh
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee
+        weight: 1
+      - path: legs/rightJointTigh/rigntJointKnee/rightJointToe 1
+        weight: 1
+      - path: legs/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

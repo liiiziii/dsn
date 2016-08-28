@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &170642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470642}
+  - 114: {fileID: 11470642}
+  - 114: {fileID: 11485032}
+  - 114: {fileID: 11485034}
+  m_Layer: 0
+  m_Name: WorldManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &470642
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.56054688, y: -1.93359375, z: -1.33789062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11470642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b5572f170fb4843829ebadaa13ee5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planes:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &11485032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261b024edee654e088aa907357755905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pXY: {fileID: 0}
+  pZY: {fileID: 0}
+  gravity: -25
+  runSpeed: 3.79999995
+  groundDamping: 20
+  inAirDamping: 5
+  jumpHeight: 1.64999998
+  normalizedHorizontalSpeed: 0
+  _playerXY:
+    spriteTransform: {fileID: 0}
+    animator: {fileID: 0}
+    controller: {fileID: 0}
+    velocity: {x: 0, y: 0, z: 0}
+  _playerZY:
+    spriteTransform: {fileID: 0}
+    animator: {fileID: 0}
+    controller: {fileID: 0}
+    velocity: {x: 0, y: 0, z: 0}
+  _playerXYZ: {fileID: 0}
+  _characterIndexUnderControl: 0
+--- !u!114 &11485034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed9dd22c1c5e47c48a9fe6d2dc82329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _precision: .5
+  _cameras:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _spawnablePrefabs:
+  - {fileID: 103480, guid: 134b9cf470ac547829c69c78e403677e, type: 2}
+  - {fileID: 102972, guid: 05479e8bce63d4b25a8625c1467377ab, type: 2}
+  - {fileID: 142470, guid: 9f5aa277f4eea47f6b33bf05a47200e9, type: 2}
+  _characterXYTransform: {fileID: 0}
+  _characterZYTransform: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 170642}
+  m_IsPrefabParent: 1
