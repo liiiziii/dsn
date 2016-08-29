@@ -34,15 +34,15 @@ public class birdController : MonoBehaviour {
 		Vector3 nextPos = bp;
 		Color nextColor = Color.white;
 		if (bk.SPCharBeTouched [meetSPCharIndex].y == 1) {//if bearZY touches the block, play bird flying away
-			nextPos = bp + new Vector3 (0, 10, 0);
-			nextColor = new Color (1, 1, 1, 0);
+			nextPos = bp + new Vector3 (0, 20, 0);
+			nextColor = new Color (0, 0, 0, 0);
 		}
 		birdMoves (bd, nextPos,nextColor );
 	}
 
 	void birdMoves(GameObject b, Vector3 p, Color c){
 		b.transform.position = Vector3.MoveTowards (b.transform.position, p, Time.deltaTime * 10);
-		b.GetComponent<Renderer> ().material.color = Color.Lerp (b.GetComponent<Renderer> ().material.color, c, Time.deltaTime * 10);
+		b.GetComponent<Renderer> ().material.color = Color.Lerp (b.GetComponent<Renderer> ().material.color, c, Time.deltaTime * 5);
 
 //		foreach (Transform trans in bs.myShadows) {
 //			trans.gameObject.SetActive (a);

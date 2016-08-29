@@ -67,7 +67,7 @@ public class SPCharInputCtr : MonoBehaviour
 		iHitObject = false;
 		Vector2 touchBoth = new Vector2 (1, 1);
 		foreach (BlockInformation go in pXYhitObj) {
-			if(go.SPCharBeTouched.Count > 0)
+			if(go != null && go.SPCharBeTouched.Count > 0)
 			if (go.SPCharBeTouched [indexInBlockInfo] == touchBoth) {
 				touch3dObj = go;
 				iHitObject = true;
